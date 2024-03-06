@@ -1,0 +1,57 @@
+% 52 week weather report
+@relation weather.symbolic
+
+@attribute weather {sunny, cloudy, rainy, snow}
+@attribute temperature {hot, normal, cool}
+@attribute humidity {high, normal, low}
+@attribute windy {calm, moderate, strong}
+
+@data
+sunny, hot, high, calm
+sunny, hot, high, moderate
+sunny, normal, high, strong
+sunny, cool, normal, calm
+sunny, cool, normal, moderate
+sunny, cool, low, strong
+cloudy, hot, high, calm
+cloudy, normal, high, moderate
+cloudy, cool, normal, strong
+cloudy, cool, low, calm
+cloudy, normal, low, moderate
+cloudy, hot, low, strong
+rainy, hot, high, calm
+rainy, normal, high, moderate
+rainy, cool, normal, strong
+rainy, cool, low, calm
+rainy, normal, low, moderate
+rainy, hot, low, strong
+snow, hot, high, calm
+snow, normal, high, moderate
+snow, cool, normal, strong
+snow, cool, low, calm
+snow, normal, low, moderate
+snow, hot, low, strong
+sunny, hot, high, calm
+sunny, hot, high, moderate
+sunny, normal, high, strong
+sunny, cool, normal, calm
+sunny, cool, normal, moderate
+sunny, cool, low, strong
+cloudy, hot, high, calm
+cloudy, normal, high, moderate
+cloudy, cool, normal, strong
+cloudy, cool, low, calm
+cloudy, normal, low, moderate
+cloudy, hot, low, strong
+rainy, hot, high, calm
+rainy, normal, high, moderate
+rainy, cool, normal, strong
+rainy, cool, low, calm
+rainy, normal, low, moderate
+rainy, hot, low, strong
+snow, hot, high, calm
+snow, normal, high, moderate
+snow, cool, normal, strong
+snow, cool, low, calm
+snow, normal, low, moderate
+snow, hot, low, strong
